@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03093A9D12DC98920087B88B /* UrlUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 03093A9C12DC98920087B88B /* UrlUtils.m */; };
+		03093ACE12DC9BDD0087B88B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03093ACD12DC9BDD0087B88B /* MobileCoreServices.framework */; };
+		03093B1512DCA41E0087B88B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03093B1412DCA41E0087B88B /* MessageUI.framework */; };
+		0319F1A012E1D71600C5DB82 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0319F19E12E1D71600C5DB82 /* ProgressViewController.m */; };
+		0319F1A112E1D71600C5DB82 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0319F19F12E1D71600C5DB82 /* ProgressViewController.xib */; };
+		031A412D12C001DC00CB3453 /* ios-monospace-fix.js in Resources */ = {isa = PBXBuildFile; fileRef = 031A412C12C001DC00CB3453 /* ios-monospace-fix.js */; };
+		031D1FD21292E82000A87AF8 /* TableSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031D1FD01292E82000A87AF8 /* TableSettingsViewController.m */; };
+		031D1FD31292E82000A87AF8 /* TableSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031D1FD11292E82000A87AF8 /* TableSettingsViewController.xib */; };
+		033E83C119CED3790029D1C0 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033E83C019CED3790029D1C0 /* Launch Screen.xib */; };
+		033E83C319CED3C50029D1C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E83C219CED3C50029D1C0 /* Images.xcassets */; };
+		033E83C519CED70D0029D1C0 /* TypeLinkIconStyled512.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E83C419CED70D0029D1C0 /* TypeLinkIconStyled512.png */; };
+		034B754413E589B300EEFE7E /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B754313E589B200EEFE7E /* Settings.m */; };
+		034B754D13E5BBD700EEFE7E /* FontSizeChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B754C13E5BBD500EEFE7E /* FontSizeChooserViewController.m */; };
+		034B754F13E5BC0200EEFE7E /* FontSizeChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034B754E13E5BC0200EEFE7E /* FontSizeChooserViewController.xib */; };
+		034D625F12D23813005E342A /* RegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034D625D12D23813005E342A /* RegisterTableViewController.m */; };
+		034D626012D23813005E342A /* RegisterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034D625E12D23813005E342A /* RegisterTableViewController.xib */; };
+		03551890128863C1008D1E6B /* SharedPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0355188E128863C1008D1E6B /* SharedPagesViewController.m */; };
+		03551891128863C1008D1E6B /* SharedPagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0355188F128863C1008D1E6B /* SharedPagesViewController.xib */; };
+		03600BB81280877400C48676 /* TypeLinkIcon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 03600BB51280877400C48676 /* TypeLinkIcon512.png */; };
+		0360B89D13A38DC400A45AD9 /* AccountSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0360B89B13A38DC400A45AD9 /* AccountSettingsViewController.m */; };
+		0360B8A113A3969200A45AD9 /* ActivityBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0360B8A013A3969200A45AD9 /* ActivityBarButtonItem.m */; };
+		0360B8A313A39BE800A45AD9 /* AccountSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0360B8A213A39BE800A45AD9 /* AccountSettingsViewController.xib */; };
+		036681E61271ED3300998BA2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036681E51271ED3300998BA2 /* RootViewController.xib */; };
+		036681F41271ED6900998BA2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681EB1271ED6900998BA2 /* NSObject+SBJSON.m */; };
+		036681F51271ED6900998BA2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681ED1271ED6900998BA2 /* NSString+SBJSON.m */; };
+		036681F61271ED6900998BA2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681EF1271ED6900998BA2 /* SBJsonBase.m */; };
+		036681F71271ED6900998BA2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681F11271ED6900998BA2 /* SBJsonParser.m */; };
+		036681F81271ED6900998BA2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681F31271ED6900998BA2 /* SBJsonWriter.m */; };
+		036681FF1271ED7300998BA2 /* TypeLinkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681FA1271ED7300998BA2 /* TypeLinkService.m */; };
+		036682001271ED7300998BA2 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681FC1271ED7300998BA2 /* Page.m */; };
+		036682131272049E00998BA2 /* EditPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366820D1272049E00998BA2 /* EditPageViewController.m */; };
+		036682141272049E00998BA2 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036682101272049E00998BA2 /* PageViewController.m */; };
+		036682871272067900998BA2 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 036682861272067900998BA2 /* Config.plist */; };
+		036682951272078200998BA2 /* EditPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036682921272078200998BA2 /* EditPageViewController.xib */; };
+		036682DA12720D2A00998BA2 /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036682D912720D2A00998BA2 /* PageViewController.xib */; };
+		036683561272168700998BA2 /* TypeLink.css in Resources */ = {isa = PBXBuildFile; fileRef = 036683551272168700998BA2 /* TypeLink.css */; };
+		037222F919D0E88E00389727 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 037222F819D0E88E00389727 /* 19-gear.png */; };
+		037222FD19D173E700389727 /* splash-320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 037222FA19D173E700389727 /* splash-320x480.png */; };
+		037222FE19D173E700389727 /* splash-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 037222FB19D173E700389727 /* splash-640x960.png */; };
+		037222FF19D173E700389727 /* splash-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 037222FC19D173E700389727 /* splash-640x1136.png */; };
+		0372230819D1772200389727 /* splash-768x1004.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230019D1772200389727 /* splash-768x1004.png */; };
+		0372230919D1772200389727 /* splash-768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230119D1772200389727 /* splash-768x1024.png */; };
+		0372230A19D1772200389727 /* splash-1024x748.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230219D1772200389727 /* splash-1024x748.png */; };
+		0372230B19D1772200389727 /* splash-1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230319D1772200389727 /* splash-1024x768.png */; };
+		0372230C19D1772200389727 /* splash-1536x2008.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230419D1772200389727 /* splash-1536x2008.png */; };
+		0372230D19D1772200389727 /* splash-1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230519D1772200389727 /* splash-1536x2048.png */; };
+		0372230E19D1772200389727 /* splash-2048x1496.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230619D1772200389727 /* splash-2048x1496.png */; };
+		0372230F19D1772200389727 /* splash-2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 0372230719D1772200389727 /* splash-2048x1536.png */; };
+		0378C0D91291A2B200E4EBCD /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0378C0D81291A2B200E4EBCD /* TextTableViewCell.m */; };
+		037B7F9512A1686600C6FC10 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 037B7F9412A1686600C6FC10 /* User.m */; };
+		037B7F9B12A1689200C6FC10 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 037B7F9A12A1689200C6FC10 /* Font.m */; };
+		03852A4A1285BAE800DA6452 /* TablePageSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03852A481285BAE800DA6452 /* TablePageSettingsViewController.m */; };
+		03852A4B1285BAE800DA6452 /* TablePageSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03852A491285BAE800DA6452 /* TablePageSettingsViewController.xib */; };
+		03935BA8139A664200EF2D33 /* FontChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03935BA6139A664000EF2D33 /* FontChooserViewController.m */; };
+		03935BA9139A664200EF2D33 /* FontChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03935BA7139A664200EF2D33 /* FontChooserViewController.xib */; };
+		039B0B9112CA801500A1AF0F /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039B0B8F12CA801500A1AF0F /* AboutViewController.m */; };
+		039B0B9212CA801500A1AF0F /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039B0B9012CA801500A1AF0F /* AboutViewController.xib */; };
+		039B0B9A12CA834100A1AF0F /* TypeLinkLogoDrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 039B0B9812CA834100A1AF0F /* TypeLinkLogoDrop.png */; };
+		039B0B9B12CA834100A1AF0F /* TypeLinkLogoDrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 039B0B9912CA834100A1AF0F /* TypeLinkLogoDrop@2x.png */; };
+		03A71D2213E42574006270F6 /* LockScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A71D2013E42574006270F6 /* LockScreenViewController.m */; };
+		03A71D2313E42574006270F6 /* LockScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A71D2113E42574006270F6 /* LockScreenViewController.xib */; };
+		03B1A11D19CEE06200C47B0A /* TypeLink Logo 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A11519CEE06200C47B0A /* TypeLink Logo 57.png */; };
+		03B1A11E19CEE06200C47B0A /* TypeLink Logo 57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A11619CEE06200C47B0A /* TypeLink Logo 57@2x.png */; };
+		03B1A12019CEE06200C47B0A /* TypeLink Logo 60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A11819CEE06200C47B0A /* TypeLink Logo 60@2x.png */; };
+		03B1A12119CEE06200C47B0A /* TypeLink Logo 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A11919CEE06200C47B0A /* TypeLink Logo 72.png */; };
+		03B1A12219CEE06200C47B0A /* TypeLink Logo 72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A11A19CEE06200C47B0A /* TypeLink Logo 72@2x.png */; };
+		03B1A12319CEE06200C47B0A /* TypeLink Logo 76.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A11B19CEE06200C47B0A /* TypeLink Logo 76.png */; };
+		03B1A12419CEE06200C47B0A /* TypeLink Logo 76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A11C19CEE06200C47B0A /* TypeLink Logo 76@2x.png */; };
+		03B1A12919CEE29500C47B0A /* TypeLink Logo 60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B1A12819CEE29500C47B0A /* TypeLink Logo 60@3x.png */; };
+		03F420101278DBB00055B55B /* AlertService.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4200F1278DBB00055B55B /* AlertService.m */; };
+		03F421261279AD450055B55B /* TypeLink.js in Resources */ = {isa = PBXBuildFile; fileRef = 03F421251279AD450055B55B /* TypeLink.js */; };
+		03F421E91279D1580055B55B /* AsyncRestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F421E81279D1580055B55B /* AsyncRestConnection.m */; };
+		03F4224B1279D8E30055B55B /* TypeLinkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4224A1279D8E30055B55B /* TypeLinkConnection.m */; };
+		03F42522127A4C3D0055B55B /* AlertConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F42521127A4C3D0055B55B /* AlertConnection.m */; };
+		1D3623260D0F684500981E51 /* TypeLinkDataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TypeLinkDataAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28D3F202112F7DC200FD0661 /* TypeLinkData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* TypeLinkData.xcdatamodeld */; };
+		BBA92F831601F1AE008C24CC /* 19-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA92F821601F1AE008C24CC /* 19-gear@2x.png */; };
+		BBA92F851601F3D5008C24CC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA92F841601F3D4008C24CC /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03093A9B12DC98920087B88B /* UrlUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UrlUtils.h; path = ../UrlUtils.h; sourceTree = "<group>"; };
+		03093A9C12DC98920087B88B /* UrlUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UrlUtils.m; path = ../UrlUtils.m; sourceTree = "<group>"; };
+		03093ACD12DC9BDD0087B88B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		03093B1412DCA41E0087B88B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0319F19D12E1D71600C5DB82 /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		0319F19E12E1D71600C5DB82 /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		0319F19F12E1D71600C5DB82 /* ProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProgressViewController.xib; path = Classes/ProgressViewController.xib; sourceTree = "<group>"; };
+		031A412C12C001DC00CB3453 /* ios-monospace-fix.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ios-monospace-fix.js"; sourceTree = "<group>"; };
+		031D1FCF1292E82000A87AF8 /* TableSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSettingsViewController.h; sourceTree = "<group>"; };
+		031D1FD01292E82000A87AF8 /* TableSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSettingsViewController.m; sourceTree = "<group>"; };
+		031D1FD11292E82000A87AF8 /* TableSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableSettingsViewController.xib; path = Classes/TableSettingsViewController.xib; sourceTree = "<group>"; };
+		033E83C019CED3790029D1C0 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		033E83C219CED3C50029D1C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TypeLink/Images.xcassets; sourceTree = "<group>"; };
+		033E83C419CED70D0029D1C0 /* TypeLinkIconStyled512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TypeLinkIconStyled512.png; sourceTree = "<group>"; };
+		034B754213E589B200EEFE7E /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		034B754313E589B200EEFE7E /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		034B754513E58BC400EEFE7E /* TypeLinkData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TypeLinkData 2.xcdatamodel"; sourceTree = "<group>"; };
+		034B754613E5B58200EEFE7E /* TypeLinkData 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TypeLinkData 3.xcdatamodel"; sourceTree = "<group>"; };
+		034B754A13E5BA0200EEFE7E /* TypeLinkData 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TypeLinkData 4.xcdatamodel"; sourceTree = "<group>"; };
+		034B754B13E5BBD400EEFE7E /* FontSizeChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeChooserViewController.h; sourceTree = "<group>"; };
+		034B754C13E5BBD500EEFE7E /* FontSizeChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeChooserViewController.m; sourceTree = "<group>"; };
+		034B754E13E5BC0200EEFE7E /* FontSizeChooserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FontSizeChooserViewController.xib; path = Classes/FontSizeChooserViewController.xib; sourceTree = "<group>"; };
+		034D625C12D23813005E342A /* RegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterTableViewController.h; sourceTree = "<group>"; };
+		034D625D12D23813005E342A /* RegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTableViewController.m; sourceTree = "<group>"; };
+		034D625E12D23813005E342A /* RegisterTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegisterTableViewController.xib; path = Classes/RegisterTableViewController.xib; sourceTree = "<group>"; };
+		0355188D128863C1008D1E6B /* SharedPagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedPagesViewController.h; sourceTree = "<group>"; };
+		0355188E128863C1008D1E6B /* SharedPagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedPagesViewController.m; sourceTree = "<group>"; };
+		0355188F128863C1008D1E6B /* SharedPagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SharedPagesViewController.xib; path = Classes/SharedPagesViewController.xib; sourceTree = "<group>"; };
+		03600BB51280877400C48676 /* TypeLinkIcon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TypeLinkIcon512.png; sourceTree = "<group>"; };
+		0360B89A13A38DC400A45AD9 /* AccountSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSettingsViewController.h; sourceTree = "<group>"; };
+		0360B89B13A38DC400A45AD9 /* AccountSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSettingsViewController.m; sourceTree = "<group>"; };
+		0360B89F13A3969200A45AD9 /* ActivityBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityBarButtonItem.h; sourceTree = "<group>"; };
+		0360B8A013A3969200A45AD9 /* ActivityBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityBarButtonItem.m; sourceTree = "<group>"; };
+		0360B8A213A39BE800A45AD9 /* AccountSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountSettingsViewController.xib; sourceTree = "<group>"; };
+		036681E51271ED3300998BA2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		036681E91271ED6900998BA2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		036681EA1271ED6900998BA2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		036681EB1271ED6900998BA2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		036681EC1271ED6900998BA2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		036681ED1271ED6900998BA2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		036681EE1271ED6900998BA2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		036681EF1271ED6900998BA2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		036681F01271ED6900998BA2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		036681F11271ED6900998BA2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		036681F21271ED6900998BA2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		036681F31271ED6900998BA2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		036681F91271ED7300998BA2 /* TypeLinkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeLinkService.h; sourceTree = "<group>"; };
+		036681FA1271ED7300998BA2 /* TypeLinkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeLinkService.m; sourceTree = "<group>"; };
+		036681FB1271ED7300998BA2 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		036681FC1271ED7300998BA2 /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		0366820C1272049E00998BA2 /* EditPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPageViewController.h; sourceTree = "<group>"; };
+		0366820D1272049E00998BA2 /* EditPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPageViewController.m; sourceTree = "<group>"; };
+		0366820E1272049E00998BA2 /* ModalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalDelegate.h; sourceTree = "<group>"; };
+		0366820F1272049E00998BA2 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		036682101272049E00998BA2 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		036682861272067900998BA2 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		036682921272078200998BA2 /* EditPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPageViewController.xib; sourceTree = "<group>"; };
+		036682D912720D2A00998BA2 /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
+		036683551272168700998BA2 /* TypeLink.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = TypeLink.css; sourceTree = "<group>"; };
+		037222F819D0E88E00389727 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		037222FA19D173E700389727 /* splash-320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-320x480.png"; sourceTree = "<group>"; };
+		037222FB19D173E700389727 /* splash-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-640x960.png"; sourceTree = "<group>"; };
+		037222FC19D173E700389727 /* splash-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-640x1136.png"; sourceTree = "<group>"; };
+		0372230019D1772200389727 /* splash-768x1004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-768x1004.png"; sourceTree = "<group>"; };
+		0372230119D1772200389727 /* splash-768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-768x1024.png"; sourceTree = "<group>"; };
+		0372230219D1772200389727 /* splash-1024x748.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-1024x748.png"; sourceTree = "<group>"; };
+		0372230319D1772200389727 /* splash-1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-1024x768.png"; sourceTree = "<group>"; };
+		0372230419D1772200389727 /* splash-1536x2008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-1536x2008.png"; sourceTree = "<group>"; };
+		0372230519D1772200389727 /* splash-1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-1536x2048.png"; sourceTree = "<group>"; };
+		0372230619D1772200389727 /* splash-2048x1496.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-2048x1496.png"; sourceTree = "<group>"; };
+		0372230719D1772200389727 /* splash-2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-2048x1536.png"; sourceTree = "<group>"; };
+		0378C0D71291A2B200E4EBCD /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
+		0378C0D81291A2B200E4EBCD /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		037B7F9312A1686600C6FC10 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		037B7F9412A1686600C6FC10 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		037B7F9912A1689200C6FC10 /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
+		037B7F9A12A1689200C6FC10 /* Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Font.m; sourceTree = "<group>"; };
+		03852A471285BAE800DA6452 /* TablePageSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablePageSettingsViewController.h; sourceTree = "<group>"; };
+		03852A481285BAE800DA6452 /* TablePageSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablePageSettingsViewController.m; sourceTree = "<group>"; };
+		03852A491285BAE800DA6452 /* TablePageSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TablePageSettingsViewController.xib; path = Classes/TablePageSettingsViewController.xib; sourceTree = "<group>"; };
+		03935BA5139A664000EF2D33 /* FontChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontChooserViewController.h; sourceTree = "<group>"; };
+		03935BA6139A664000EF2D33 /* FontChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontChooserViewController.m; sourceTree = "<group>"; };
+		03935BA7139A664200EF2D33 /* FontChooserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FontChooserViewController.xib; path = Classes/FontChooserViewController.xib; sourceTree = "<group>"; };
+		03935BC5139ABAAC00EF2D33 /* TypeLinkConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeLinkConnectionDelegate.h; sourceTree = "<group>"; };
+		03935BC6139ACA3A00EF2D33 /* AlertConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertConnectionDelegate.h; sourceTree = "<group>"; };
+		039B0B8E12CA801500A1AF0F /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		039B0B8F12CA801500A1AF0F /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		039B0B9012CA801500A1AF0F /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		039B0B9812CA834100A1AF0F /* TypeLinkLogoDrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TypeLinkLogoDrop.png; sourceTree = "<group>"; };
+		039B0B9912CA834100A1AF0F /* TypeLinkLogoDrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLinkLogoDrop@2x.png"; sourceTree = "<group>"; };
+		03A71D1F13E42574006270F6 /* LockScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockScreenViewController.h; sourceTree = "<group>"; };
+		03A71D2013E42574006270F6 /* LockScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockScreenViewController.m; sourceTree = "<group>"; };
+		03A71D2113E42574006270F6 /* LockScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LockScreenViewController.xib; path = Classes/LockScreenViewController.xib; sourceTree = "<group>"; };
+		03B1A11519CEE06200C47B0A /* TypeLink Logo 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 57.png"; sourceTree = "<group>"; };
+		03B1A11619CEE06200C47B0A /* TypeLink Logo 57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 57@2x.png"; sourceTree = "<group>"; };
+		03B1A11819CEE06200C47B0A /* TypeLink Logo 60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 60@2x.png"; sourceTree = "<group>"; };
+		03B1A11919CEE06200C47B0A /* TypeLink Logo 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 72.png"; sourceTree = "<group>"; };
+		03B1A11A19CEE06200C47B0A /* TypeLink Logo 72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 72@2x.png"; sourceTree = "<group>"; };
+		03B1A11B19CEE06200C47B0A /* TypeLink Logo 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 76.png"; sourceTree = "<group>"; };
+		03B1A11C19CEE06200C47B0A /* TypeLink Logo 76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 76@2x.png"; sourceTree = "<group>"; };
+		03B1A12819CEE29500C47B0A /* TypeLink Logo 60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeLink Logo 60@3x.png"; sourceTree = "<group>"; };
+		03F4200E1278DBB00055B55B /* AlertService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertService.h; sourceTree = "<group>"; };
+		03F4200F1278DBB00055B55B /* AlertService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertService.m; sourceTree = "<group>"; };
+		03F421251279AD450055B55B /* TypeLink.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TypeLink.js; sourceTree = "<group>"; };
+		03F421E71279D1580055B55B /* AsyncRestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncRestConnection.h; sourceTree = "<group>"; };
+		03F421E81279D1580055B55B /* AsyncRestConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncRestConnection.m; sourceTree = "<group>"; };
+		03F421F01279D48D0055B55B /* AsyncRestConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncRestConnectionDelegate.h; sourceTree = "<group>"; };
+		03F422491279D8E30055B55B /* TypeLinkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeLinkConnection.h; sourceTree = "<group>"; };
+		03F4224A1279D8E30055B55B /* TypeLinkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeLinkConnection.m; sourceTree = "<group>"; };
+		03F42520127A4C3D0055B55B /* AlertConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertConnection.h; sourceTree = "<group>"; };
+		03F42521127A4C3D0055B55B /* AlertConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertConnection.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TypeLinkDataAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeLinkDataAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TypeLinkDataAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeLinkDataAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TypeLinkData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeLinkData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* TypeLinkData.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = TypeLinkData.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* TypeLinkData_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeLinkData_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TypeLinkData-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TypeLinkData-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BBA92F821601F1AE008C24CC /* 19-gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear@2x.png"; sourceTree = "<group>"; };
+		BBA92F841601F3D4008C24CC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA92F851601F3D5008C24CC /* Twitter.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+				03093ACE12DC9BDD0087B88B /* MobileCoreServices.framework in Frameworks */,
+				03093B1512DCA41E0087B88B /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030AB0DF1286F97700FCB05D /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				031A412C12C001DC00CB3453 /* ios-monospace-fix.js */,
+				036683551272168700998BA2 /* TypeLink.css */,
+				03F421251279AD450055B55B /* TypeLink.js */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		030AB0E01286F98400FCB05D /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				039B0B9012CA801500A1AF0F /* AboutViewController.xib */,
+				0360B8A213A39BE800A45AD9 /* AccountSettingsViewController.xib */,
+				036682921272078200998BA2 /* EditPageViewController.xib */,
+				03935BA7139A664200EF2D33 /* FontChooserViewController.xib */,
+				034B754E13E5BC0200EEFE7E /* FontSizeChooserViewController.xib */,
+				03A71D2113E42574006270F6 /* LockScreenViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				036682D912720D2A00998BA2 /* PageViewController.xib */,
+				0319F19F12E1D71600C5DB82 /* ProgressViewController.xib */,
+				034D625E12D23813005E342A /* RegisterTableViewController.xib */,
+				036681E51271ED3300998BA2 /* RootViewController.xib */,
+				0355188F128863C1008D1E6B /* SharedPagesViewController.xib */,
+				03852A491285BAE800DA6452 /* TablePageSettingsViewController.xib */,
+				031D1FD11292E82000A87AF8 /* TableSettingsViewController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		030AB0E11286F99A00FCB05D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				037222F819D0E88E00389727 /* 19-gear.png */,
+				BBA92F821601F1AE008C24CC /* 19-gear@2x.png */,
+				037222FA19D173E700389727 /* splash-320x480.png */,
+				037222FB19D173E700389727 /* splash-640x960.png */,
+				037222FC19D173E700389727 /* splash-640x1136.png */,
+				0372230019D1772200389727 /* splash-768x1004.png */,
+				0372230119D1772200389727 /* splash-768x1024.png */,
+				0372230219D1772200389727 /* splash-1024x748.png */,
+				0372230319D1772200389727 /* splash-1024x768.png */,
+				0372230419D1772200389727 /* splash-1536x2008.png */,
+				0372230519D1772200389727 /* splash-1536x2048.png */,
+				0372230619D1772200389727 /* splash-2048x1496.png */,
+				0372230719D1772200389727 /* splash-2048x1536.png */,
+				03B1A11519CEE06200C47B0A /* TypeLink Logo 57.png */,
+				03B1A11619CEE06200C47B0A /* TypeLink Logo 57@2x.png */,
+				03B1A11819CEE06200C47B0A /* TypeLink Logo 60@2x.png */,
+				03B1A12819CEE29500C47B0A /* TypeLink Logo 60@3x.png */,
+				03B1A11919CEE06200C47B0A /* TypeLink Logo 72.png */,
+				03B1A11A19CEE06200C47B0A /* TypeLink Logo 72@2x.png */,
+				03B1A11B19CEE06200C47B0A /* TypeLink Logo 76.png */,
+				03B1A11C19CEE06200C47B0A /* TypeLink Logo 76@2x.png */,
+				03600BB51280877400C48676 /* TypeLinkIcon512.png */,
+				033E83C419CED70D0029D1C0 /* TypeLinkIconStyled512.png */,
+				039B0B9812CA834100A1AF0F /* TypeLinkLogoDrop.png */,
+				039B0B9912CA834100A1AF0F /* TypeLinkLogoDrop@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		036681E71271ED4200998BA2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				03F42520127A4C3D0055B55B /* AlertConnection.h */,
+				03F42521127A4C3D0055B55B /* AlertConnection.m */,
+				03935BC6139ACA3A00EF2D33 /* AlertConnectionDelegate.h */,
+				03F4200E1278DBB00055B55B /* AlertService.h */,
+				03F4200F1278DBB00055B55B /* AlertService.m */,
+				03F421E71279D1580055B55B /* AsyncRestConnection.h */,
+				03F421E81279D1580055B55B /* AsyncRestConnection.m */,
+				03F421F01279D48D0055B55B /* AsyncRestConnectionDelegate.h */,
+				037B7F9912A1689200C6FC10 /* Font.h */,
+				037B7F9A12A1689200C6FC10 /* Font.m */,
+				036681FB1271ED7300998BA2 /* Page.h */,
+				036681FC1271ED7300998BA2 /* Page.m */,
+				034B754213E589B200EEFE7E /* Settings.h */,
+				034B754313E589B200EEFE7E /* Settings.m */,
+				03F422491279D8E30055B55B /* TypeLinkConnection.h */,
+				03F4224A1279D8E30055B55B /* TypeLinkConnection.m */,
+				03935BC5139ABAAC00EF2D33 /* TypeLinkConnectionDelegate.h */,
+				036681F91271ED7300998BA2 /* TypeLinkService.h */,
+				036681FA1271ED7300998BA2 /* TypeLinkService.m */,
+				03093A9B12DC98920087B88B /* UrlUtils.h */,
+				03093A9C12DC98920087B88B /* UrlUtils.m */,
+				037B7F9312A1686600C6FC10 /* User.h */,
+				037B7F9412A1686600C6FC10 /* User.m */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		036681E81271ED5500998BA2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				036681E91271ED6900998BA2 /* JSON.h */,
+				036681EA1271ED6900998BA2 /* NSObject+SBJSON.h */,
+				036681EB1271ED6900998BA2 /* NSObject+SBJSON.m */,
+				036681EC1271ED6900998BA2 /* NSString+SBJSON.h */,
+				036681ED1271ED6900998BA2 /* NSString+SBJSON.m */,
+				036681EE1271ED6900998BA2 /* SBJsonBase.h */,
+				036681EF1271ED6900998BA2 /* SBJsonBase.m */,
+				036681F01271ED6900998BA2 /* SBJsonParser.h */,
+				036681F11271ED6900998BA2 /* SBJsonParser.m */,
+				036681F21271ED6900998BA2 /* SBJsonWriter.h */,
+				036681F31271ED6900998BA2 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		0378C0D61291A28900E4EBCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0360B89F13A3969200A45AD9 /* ActivityBarButtonItem.h */,
+				0360B8A013A3969200A45AD9 /* ActivityBarButtonItem.m */,
+				0378C0D71291A2B200E4EBCD /* TextTableViewCell.h */,
+				0378C0D81291A2B200E4EBCD /* TextTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		03B1A12719CEE1F800C47B0A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				039B0B8E12CA801500A1AF0F /* AboutViewController.h */,
+				039B0B8F12CA801500A1AF0F /* AboutViewController.m */,
+				0360B89A13A38DC400A45AD9 /* AccountSettingsViewController.h */,
+				0360B89B13A38DC400A45AD9 /* AccountSettingsViewController.m */,
+				0366820C1272049E00998BA2 /* EditPageViewController.h */,
+				0366820D1272049E00998BA2 /* EditPageViewController.m */,
+				03935BA5139A664000EF2D33 /* FontChooserViewController.h */,
+				03935BA6139A664000EF2D33 /* FontChooserViewController.m */,
+				034B754B13E5BBD400EEFE7E /* FontSizeChooserViewController.h */,
+				034B754C13E5BBD500EEFE7E /* FontSizeChooserViewController.m */,
+				03A71D1F13E42574006270F6 /* LockScreenViewController.h */,
+				03A71D2013E42574006270F6 /* LockScreenViewController.m */,
+				0366820F1272049E00998BA2 /* PageViewController.h */,
+				036682101272049E00998BA2 /* PageViewController.m */,
+				0319F19D12E1D71600C5DB82 /* ProgressViewController.h */,
+				0319F19E12E1D71600C5DB82 /* ProgressViewController.m */,
+				034D625C12D23813005E342A /* RegisterTableViewController.h */,
+				034D625D12D23813005E342A /* RegisterTableViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				0355188D128863C1008D1E6B /* SharedPagesViewController.h */,
+				0355188E128863C1008D1E6B /* SharedPagesViewController.m */,
+				03852A471285BAE800DA6452 /* TablePageSettingsViewController.h */,
+				03852A481285BAE800DA6452 /* TablePageSettingsViewController.m */,
+				031D1FCF1292E82000A87AF8 /* TableSettingsViewController.h */,
+				031D1FD01292E82000A87AF8 /* TableSettingsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				036681E71271ED4200998BA2 /* Domain */,
+				036681E81271ED5500998BA2 /* JSON */,
+				0366820E1272049E00998BA2 /* ModalDelegate.h */,
+				1D3623240D0F684500981E51 /* TypeLinkDataAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TypeLinkDataAppDelegate.m */,
+				03B1A12719CEE1F800C47B0A /* ViewControllers */,
+				0378C0D61291A28900E4EBCD /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TypeLinkData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* TypeLinkData_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				036682861272067900998BA2 /* Config.plist */,
+				030AB0E11286F99A00FCB05D /* Images */,
+				033E83C219CED3C50029D1C0 /* Images.xcassets */,
+				033E83C019CED3790029D1C0 /* Launch Screen.xib */,
+				8D1107310486CEB800E47090 /* TypeLinkData-Info.plist */,
+				28D3F201112F7DC200FD0661 /* TypeLinkData.xcdatamodeld */,
+				030AB0DF1286F97700FCB05D /* WebView */,
+				030AB0E01286F98400FCB05D /* XIB */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBA92F841601F3D4008C24CC /* Twitter.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+				03093ACD12DC9BDD0087B88B /* MobileCoreServices.framework */,
+				03093B1412DCA41E0087B88B /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TypeLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TypeLink" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypeLink;
+			productName = TypeLinkData;
+			productReference = 1D6058910D05DD3D006BFB54 /* TypeLinkData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 6283CFQE2Y;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TypeLinkData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TypeLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0372230A19D1772200389727 /* splash-1024x748.png in Resources */,
+				0372230E19D1772200389727 /* splash-2048x1496.png in Resources */,
+				03B1A12219CEE06200C47B0A /* TypeLink Logo 72@2x.png in Resources */,
+				031A412D12C001DC00CB3453 /* ios-monospace-fix.js in Resources */,
+				0372230819D1772200389727 /* splash-768x1004.png in Resources */,
+				0372230C19D1772200389727 /* splash-1536x2008.png in Resources */,
+				03F421261279AD450055B55B /* TypeLink.js in Resources */,
+				03B1A11D19CEE06200C47B0A /* TypeLink Logo 57.png in Resources */,
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				036681E61271ED3300998BA2 /* RootViewController.xib in Resources */,
+				036682871272067900998BA2 /* Config.plist in Resources */,
+				033E83C119CED3790029D1C0 /* Launch Screen.xib in Resources */,
+				0372230D19D1772200389727 /* splash-1536x2048.png in Resources */,
+				036682951272078200998BA2 /* EditPageViewController.xib in Resources */,
+				036682DA12720D2A00998BA2 /* PageViewController.xib in Resources */,
+				03B1A12419CEE06200C47B0A /* TypeLink Logo 76@2x.png in Resources */,
+				036683561272168700998BA2 /* TypeLink.css in Resources */,
+				0372230F19D1772200389727 /* splash-2048x1536.png in Resources */,
+				033E83C319CED3C50029D1C0 /* Images.xcassets in Resources */,
+				033E83C519CED70D0029D1C0 /* TypeLinkIconStyled512.png in Resources */,
+				03600BB81280877400C48676 /* TypeLinkIcon512.png in Resources */,
+				037222FD19D173E700389727 /* splash-320x480.png in Resources */,
+				03B1A12019CEE06200C47B0A /* TypeLink Logo 60@2x.png in Resources */,
+				0372230B19D1772200389727 /* splash-1024x768.png in Resources */,
+				03852A4B1285BAE800DA6452 /* TablePageSettingsViewController.xib in Resources */,
+				03B1A12119CEE06200C47B0A /* TypeLink Logo 72.png in Resources */,
+				037222F919D0E88E00389727 /* 19-gear.png in Resources */,
+				03551891128863C1008D1E6B /* SharedPagesViewController.xib in Resources */,
+				031D1FD31292E82000A87AF8 /* TableSettingsViewController.xib in Resources */,
+				037222FF19D173E700389727 /* splash-640x1136.png in Resources */,
+				03B1A12319CEE06200C47B0A /* TypeLink Logo 76.png in Resources */,
+				039B0B9212CA801500A1AF0F /* AboutViewController.xib in Resources */,
+				039B0B9A12CA834100A1AF0F /* TypeLinkLogoDrop.png in Resources */,
+				03B1A12919CEE29500C47B0A /* TypeLink Logo 60@3x.png in Resources */,
+				039B0B9B12CA834100A1AF0F /* TypeLinkLogoDrop@2x.png in Resources */,
+				034D626012D23813005E342A /* RegisterTableViewController.xib in Resources */,
+				0372230919D1772200389727 /* splash-768x1024.png in Resources */,
+				0319F1A112E1D71600C5DB82 /* ProgressViewController.xib in Resources */,
+				03B1A11E19CEE06200C47B0A /* TypeLink Logo 57@2x.png in Resources */,
+				03935BA9139A664200EF2D33 /* FontChooserViewController.xib in Resources */,
+				0360B8A313A39BE800A45AD9 /* AccountSettingsViewController.xib in Resources */,
+				03A71D2313E42574006270F6 /* LockScreenViewController.xib in Resources */,
+				034B754F13E5BC0200EEFE7E /* FontSizeChooserViewController.xib in Resources */,
+				037222FE19D173E700389727 /* splash-640x960.png in Resources */,
+				BBA92F831601F1AE008C24CC /* 19-gear@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TypeLinkDataAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				28D3F202112F7DC200FD0661 /* TypeLinkData.xcdatamodeld in Sources */,
+				036681F41271ED6900998BA2 /* NSObject+SBJSON.m in Sources */,
+				036681F51271ED6900998BA2 /* NSString+SBJSON.m in Sources */,
+				036681F61271ED6900998BA2 /* SBJsonBase.m in Sources */,
+				036681F71271ED6900998BA2 /* SBJsonParser.m in Sources */,
+				036681F81271ED6900998BA2 /* SBJsonWriter.m in Sources */,
+				036681FF1271ED7300998BA2 /* TypeLinkService.m in Sources */,
+				036682001271ED7300998BA2 /* Page.m in Sources */,
+				036682131272049E00998BA2 /* EditPageViewController.m in Sources */,
+				036682141272049E00998BA2 /* PageViewController.m in Sources */,
+				03F420101278DBB00055B55B /* AlertService.m in Sources */,
+				03F421E91279D1580055B55B /* AsyncRestConnection.m in Sources */,
+				03F4224B1279D8E30055B55B /* TypeLinkConnection.m in Sources */,
+				03F42522127A4C3D0055B55B /* AlertConnection.m in Sources */,
+				03852A4A1285BAE800DA6452 /* TablePageSettingsViewController.m in Sources */,
+				03551890128863C1008D1E6B /* SharedPagesViewController.m in Sources */,
+				0378C0D91291A2B200E4EBCD /* TextTableViewCell.m in Sources */,
+				031D1FD21292E82000A87AF8 /* TableSettingsViewController.m in Sources */,
+				037B7F9512A1686600C6FC10 /* User.m in Sources */,
+				037B7F9B12A1689200C6FC10 /* Font.m in Sources */,
+				039B0B9112CA801500A1AF0F /* AboutViewController.m in Sources */,
+				034D625F12D23813005E342A /* RegisterTableViewController.m in Sources */,
+				03093A9D12DC98920087B88B /* UrlUtils.m in Sources */,
+				0319F1A012E1D71600C5DB82 /* ProgressViewController.m in Sources */,
+				03935BA8139A664200EF2D33 /* FontChooserViewController.m in Sources */,
+				0360B89D13A38DC400A45AD9 /* AccountSettingsViewController.m in Sources */,
+				0360B8A113A3969200A45AD9 /* ActivityBarButtonItem.m in Sources */,
+				03A71D2213E42574006270F6 /* LockScreenViewController.m in Sources */,
+				034B754413E589B300EEFE7E /* Settings.m in Sources */,
+				034B754D13E5BBD700EEFE7E /* FontSizeChooserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		031C5A4E1299C48B00DE23C3 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_DISPLAY_NAME = "TypeLink b";
+				BUNDLE_IDENTIFIER = net.typelink.typelinkios.beta;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joshua Justice";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_URL=\"@\\\"http://typelink.net/\\\"\"",
+					"API_URL=\"@\\\"http://api.typelink.net/rest\\\"\"",
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F02ECE6-EF11-4741-B936-712656B4C620";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
+		031C5A4F1299C48B00DE23C3 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_IDENTIFIER = net.typelink.typelinkios.beta;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TypeLinkData_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_URL=\"@\\\"https://typelink.net/\\\"\"",
+					"API_URL=\"@\\\"https://typelink.net/rest\\\"\"",
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "TypeLinkData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = /usr/lib/libSystem.B.dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = TypeLinkData;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Beta;
+		};
+		032E3FE412CA934D00317799 /* Dev Device */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_DISPLAY_NAME = "TypeLink d";
+				BUNDLE_IDENTIFIER = net.typelink.typelinkios.devdevice;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joshua Justice (ZNKPJ78T4U)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+					"API_URL=\"@\\\"http://api.typelink.net/rest\\\"\"",
+					"WEB_URL=\"@\\\"http://typelink.net/\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FC0A97D2-A860-42C2-8A10-3B60B4EF9E5A";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Dev Device";
+		};
+		032E3FE512CA934D00317799 /* Dev Device */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TypeLinkData_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+					"API_URL=\"@\\\"https://typelink.net/rest\\\"\"",
+					"WEB_URL=\"@\\\"https://typelink.net/\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "TypeLinkData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = /usr/lib/libSystem.B.dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = TypeLinkData;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = "Dev Device";
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TypeLinkData_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "TypeLinkData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = /usr/lib/libSystem.B.dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = TypeLinkData;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TypeLinkData_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+					"API_URL=\"@\\\"https://typelink.net/rest\\\"\"",
+					"WEB_URL=\"@\\\"https://typelink.net/\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "TypeLinkData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = /usr/lib/libSystem.B.dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = TypeLinkData;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		BB1378541617397300BC2950 /* Release Classic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_DISPLAY_NAME = TypeLink;
+				BUNDLE_IDENTIFIER = net.typelink.typelinkios.classic;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joshua Justice";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+					"API_URL=\"@\\\"http://api.typelink.net/rest\\\"\"",
+					"WEB_URL=\"@\\\"http://typelink.net/\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6C3ECB81-3A89-4455-B458-870C8338114C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Classic";
+		};
+		BB1378551617397300BC2950 /* Release Classic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TypeLinkData_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+					"API_URL=\"@\\\"https://typelink.net/rest\\\"\"",
+					"WEB_URL=\"@\\\"https://typelink.net/\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "TypeLinkData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = /usr/lib/libSystem.B.dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = TypeLinkData;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = "Release Classic";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_DISPLAY_NAME = TypeLink;
+				BUNDLE_IDENTIFIER = net.typelink.typelinkios.debug;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_URL=\"@\\\"http://localhost:8080/typelink/\\\"\"",
+					"API_URL=\"@\\\"http://localhost:8080/typelink/rest\\\"\"",
+					"WEB_HOST=\"@\\\"localhost\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_DISPLAY_NAME = TypeLink;
+				BUNDLE_IDENTIFIER = net.typelink.typelinkios;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joshua Justice";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"WEB_HOST=\"@\\\"typelink.net\\\"\"",
+					"API_URL=\"@\\\"http://api.typelink.net/rest\\\"\"",
+					"WEB_URL=\"@\\\"http://typelink.net/\\\"\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6C3ECB81-3A89-4455-B458-870C8338114C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TypeLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				BB1378551617397300BC2950 /* Release Classic */,
+				032E3FE512CA934D00317799 /* Dev Device */,
+				031C5A4F1299C48B00DE23C3 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TypeLinkData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				BB1378541617397300BC2950 /* Release Classic */,
+				032E3FE412CA934D00317799 /* Dev Device */,
+				031C5A4E1299C48B00DE23C3 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28D3F201112F7DC200FD0661 /* TypeLinkData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				034B754513E58BC400EEFE7E /* TypeLinkData 2.xcdatamodel */,
+				034B754613E5B58200EEFE7E /* TypeLinkData 3.xcdatamodel */,
+				034B754A13E5BA0200EEFE7E /* TypeLinkData 4.xcdatamodel */,
+				28860B760F44E54D00985440 /* TypeLinkData.xcdatamodel */,
+			);
+			currentVersion = 034B754A13E5BA0200EEFE7E /* TypeLinkData 4.xcdatamodel */;
+			path = TypeLinkData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
